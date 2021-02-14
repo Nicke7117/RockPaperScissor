@@ -23,3 +23,31 @@ a:link{
     text-decoration: none;
     color: purple;
 }
+
+.game-box{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(224, 142, 142);
+    width: 900px;
+    height: 700px;
+    margin-left: -450px;
+    margin-top: -350px;
+}
+
+#paper{
+
+    visibility: hidden;
+}
+
+#scissor{
+    visibility: hidden;
+}
+
+.image {
+    position: relative;
+    top: 25%;
+    left: 40px;
+    
+}
