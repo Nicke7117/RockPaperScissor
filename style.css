@@ -7,6 +7,8 @@
 }
 
 
+
+
 body {
     margin: 0;
     padding: 0;
@@ -36,14 +38,14 @@ a:link{
 
 .game-box{
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: rgb(224, 142, 142);
-    width: 900px;
-    height: 700px;
-    margin-left: -450px;
-    margin-top: -350px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   background-color: rgb(224, 142, 142);
+   width: 900px;
+   height: 700px;
+   transform: translateX(-50%) translateY(-50%);
+
 }
 
 #paper{
@@ -60,4 +62,17 @@ a:link{
     top: 25%;
     left: 40px;
     
+}
+
+.content{
+
+    position: relative;
+    height: 1000px;
+    width: 100%;
+}
+
+.form{
+
+    width: 100px;
+    height: 100%;
 }
