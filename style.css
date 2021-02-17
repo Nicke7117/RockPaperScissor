@@ -57,7 +57,7 @@ a:link{
     position: relative;
     top: 25%;
     left: 40px;
-    
+
 }
 
 .content{
@@ -125,7 +125,8 @@ a:link{
 .image{
 
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 1;
+
     
     
    
@@ -134,7 +135,7 @@ a:link{
 .image-box{
 
     display: grid;
-    grid-template-columns: 100px auto auto 100px;
+    grid-template-columns: 10px auto auto 100px;
     
 }
 
