@@ -35,6 +35,8 @@ a:link{
 .game-box{
 
    position: relative;
+   display: grid;
+   grid-template-columns: 100px auto auto 100px;
    top: 50%;
    left: 50%;
    background-color: rgb(224, 142, 142);
@@ -53,12 +55,12 @@ a:link{
     visibility: hidden;
 }
 
-.image {
+/* .image {
     position: relative;
     top: 25%;
     left: 40px;
 
-}
+} */
 
 .content{
 
@@ -69,37 +71,25 @@ a:link{
 
 .form{
 
-    width: 100px;
+    
     height: 100%;
-    display: grid;
-    grid-template-rows: auto auto auto;
+    grid-column-start: 1;
+    
+    
+
+
+    
     
 }
 
-.button-box{
 
-    grid-row-start: 2;
-    grid-row-end: 2;
-    width: 100px;
-
-    
-    
-    
-
-
-
-
-    
-    
-
-    
-}
 
 .centered-buttons{
 
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    
 
     
     
@@ -121,24 +111,6 @@ a:link{
 }
 
 
-
-.image{
-
-    grid-column-start: 1;
-    grid-column-end: 1;
-
-    
-    
-   
-}
-
-.image-box{
-
-    display: grid;
-    grid-template-columns: 100px auto auto 100px;
-    
-}
-
 .answer{
 
     position: absolute;
@@ -146,6 +118,7 @@ a:link{
     right: 0%;
     height: 100%;
     width: 100px;
+    
 
 }
 
