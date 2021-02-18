@@ -66,21 +66,12 @@ a:link{
 
 .form{
 
-    
     height: 100%;
     grid-column-start: 1;
-    
-    
-
-
-    
-    
+    grid-column-end: 1;
 }
 
-.image-box{
 
-    
-}
 
 
 
@@ -100,6 +91,8 @@ a:link{
     
 }
 
+
+
 #rock-button{
 
     margin-bottom: 100px;
@@ -116,6 +109,7 @@ a:link{
     
     height: 100%;
     grid-column-start: 4;
+    grid-column-end: 4;
     
 
 }
@@ -127,6 +121,17 @@ a:link{
     transform: translateY(-50%);
 }
 
+.image{
 
+    width: 10px;
+    height: 10px;
+
+
+}
+
+.abcd{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
 
 
