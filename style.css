@@ -55,12 +55,7 @@ a:link{
     visibility: hidden;
 }
 
-/* .image {
-    position: relative;
-    top: 25%;
-    left: 40px;
 
-} */
 
 .content{
 
@@ -79,6 +74,11 @@ a:link{
 
 
     
+    
+}
+
+.image-box{
+
     
 }
 
@@ -113,11 +113,9 @@ a:link{
 
 .answer{
 
-    position: absolute;
-    top: 0%;
-    right: 0%;
+    
     height: 100%;
-    width: 100px;
+    grid-column-start: 4;
     
 
 }
