@@ -36,7 +36,7 @@ a:link{
 
    position: relative;
    display: grid;
-   grid-template-columns: 100px auto auto 100px;
+   grid-template-columns: 100px 1fr 1fr 100px;
    top: 50%;
    left: 50%;
    background-color: rgb(224, 142, 142);
@@ -110,6 +110,7 @@ a:link{
     height: 100%;
     grid-column-start: 4;
     grid-column-end: 4;
+
     
 
 }
@@ -121,17 +122,26 @@ a:link{
     transform: translateY(-50%);
 }
 
-.image{
+.image-box{
 
-    width: 10px;
-    height: 10px;
+    height: 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: flex;
+    align-items: center;
 
 
 }
 
-.abcd{
-    grid-column-start: 2;
-    grid-column-end: 2;
+.image{
+
+    
+    width: 100%;
+    max-width: 100%;
+
+
+    
+
 }
 
 
