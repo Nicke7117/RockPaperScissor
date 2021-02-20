@@ -70,6 +70,7 @@ a:link{
     height: 100%;
     grid-column-start: 1;
     grid-column-end: 1;
+    position: relative;
 }
 
 
@@ -146,7 +147,7 @@ a:link{
 
 }
 
-#image2{
+.image2{
     
     max-width: 100%;
     height: auto;
@@ -162,15 +163,8 @@ a:link{
     grid-column-start: 1;
     grid-column-end: 1;
     text-align: center;
-    top: 25%;
-    
-}
-
-
-.button-box{
-
-    width: 100%;
-
+    top: 75%;
+    position: absolute;
     
     
 }
