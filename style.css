@@ -44,6 +44,7 @@ a:link{
    height: 700px;
    transform: translateX(-50%) translateY(-50%);
 
+
 }
 
 #paper{
@@ -154,12 +155,26 @@ a:link{
 
 }
 
-#submit-btn{
+ #submit-btn{
 
-    position: absolute;
+    
     width: 100%;
-    top: 50%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+    top: 25%;
+    
 }
+
+
+.button-box{
+
+    width: 100%;
+
+    
+    
+}
+
 
 
 
