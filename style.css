@@ -47,14 +47,6 @@ a:link{
 
 }
 
-#paper{
-
-    visibility: hidden;
-}
-
-#scissor{
-    visibility: hidden;
-}
 
 
 
@@ -170,6 +162,28 @@ a:link{
 }
 
 
+#rock-user{
+
+    display: none;
+}
 
 
+#rock-bot{
 
+    
+}
+
+#scissor-bot{
+
+    display: none;
+}
+
+#paper-user{
+
+    display: none;
+}
+
+#paper-bot{
+
+    display: none;
+}
