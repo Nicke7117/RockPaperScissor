@@ -129,10 +129,7 @@ a:link {
   text-align: center;
 }
 
-#user-answer{
-  grid-column-start: 2;
-  grid-column-end: 2;
-}
+
 
 #bot-answer{
   grid-column-start: 3;
@@ -147,4 +144,10 @@ a:link {
   width: 100%;
   top: 5%;
   text-align: center;
+}
+
+#user-answer-box{
+
+  grid-column-start: 2;
+  grid-column-end: 2;
 }

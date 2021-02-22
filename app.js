@@ -36,6 +36,10 @@ function runEvent(e){
   let botAnswer = rps[Math.floor(Math.random() * rps.length)]
   botText.textContent = botAnswer
   console.log(botAnswer)
+
+  if(botAnswer === item.title){
+    
+  }
   
   //add class to every element
 /*   for(let i = 0; i < imgs; i++){
