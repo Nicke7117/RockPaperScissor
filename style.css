@@ -122,5 +122,29 @@ a:link {
 }
 
 
+.answer-box2{
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  text-align: center;
+}
 
+#user-answer{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
 
+#bot-answer{
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.result{
+
+  position: absolute;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  width: 100%;
+  top: 5%;
+  text-align: center;
+}
