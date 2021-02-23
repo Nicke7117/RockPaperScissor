@@ -136,7 +136,7 @@ a:link {
   grid-column-end: 3;
 }
 
-.result{
+.result-box{
 
   position: absolute;
   grid-column-start: 2;

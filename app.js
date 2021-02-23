@@ -28,17 +28,29 @@ submitBtn.addEventListener("click", runEvent)
 function runEvent(e){
 
   e.preventDefault()
-  let imgs = document.getElementsByClassName("image")
-  let imgs2 = document.getElementsByClassName("image2")
   let botText = document.getElementById("bot-answer")
+  let rockButton = document.getElementById("rock-button")
+  let scissorButton = document.getElementById("scissor-button")
+  let paperButton = document.getElementById("paper-button")
+
   console.log("submitbtn")
   let rps = ["rock", "paper", "scissor"]
   let botAnswer = rps[Math.floor(Math.random() * rps.length)]
   botText.textContent = botAnswer
   console.log(botAnswer)
-
-  if(botAnswer === item.title){
+  console.log(paperButton.checked)
+  console.log(botAnswer === paperButton)
+  if(paperButton.checked && botAnswer === "rock"){
+    document.getElementById("result").textContent = "You win!"
     
+  } else if (rockButton.checked && botAnswer === "scissor"){
+    document.getElementById("result").textContent = "You win!"
+  } else if (rockButton.checked && botAnswer === "rock" || paperButton.checked && botAnswer === "paper" || scissorButton.checked && botAnswer === "scissor"){
+    document.getElementById("result").textContent = "Draw!"
+  } else if (scissorButton.checked && botAnswer === "paper"){
+    document.getElementById("result").textContent = "You win!"
+  } else {
+    document.getElementById("result").textContent = "You lose!"
   }
   
   //add class to every element
